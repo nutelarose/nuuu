@@ -37,7 +37,7 @@ function Dashboard() {
   const allItems = ALL_ITEMS;
   const menuItems = [
     { name: "Crepes", color: "bg-red-500" },
-    { name: "Extra", color: "bg-pink-500" },
+
     { name: "Pancake", color: "bg-blue-500" },
     { name: "Mini Pancakes", color: "bg-orange-900" },
     { name: "Waffles", color: "bg-purple-500" },
@@ -51,6 +51,7 @@ function Dashboard() {
     { name: "Kaffee & Hot Chocolate", color: "bg-blue-700" },
     { name: "Chai Latte & Tea", color: "bg-pink-400" },
     { name: "Cola/Redbull", color: "bg-black " },
+    { name: "Extra", color: "bg-pink-500" },
   ];
 
   const [belegs, setBelegs] = useState<BelegData[]>([]);
