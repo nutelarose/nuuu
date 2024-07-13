@@ -711,6 +711,7 @@ function Dashboard() {
             <label className="block mb-2">Preis</label>
             <input
               type="number"
+              inputMode= "decimal"
               className="border p-2 rounded w-full"
               value={customItemPrice === 0 ? "" : customItemPrice.toString()}
               placeholder="0"
